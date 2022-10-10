@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-10-2022 a las 00:44:00
+-- Tiempo de generación: 10-10-2022 a las 16:30:34
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -44,12 +44,11 @@ CREATE TABLE `registro` (
 --
 
 INSERT INTO `registro` (`id`, `nombre`, `apellidos`, `email`, `fecha_nacimiento`, `telefono`, `genero`, `clave`, `r_password`) VALUES
-(1, 'Erick', 'Pena', 'admin123@gkfasdk', '2022-09-28', 145644, 'masculino', '12345', '12345'),
-(2, '', '', '', '0000-00-00', 0, '', '', ''),
-(3, '', '', '', '0000-00-00', 0, '', '', ''),
-(4, 'fer', 't', 'rey@rey', '2022-09-28', 1111, 'masculino', '123', '123'),
+(1, 'Erick', 'peñafiel', 'admin123@gkfasdk', '2022-09-28', 145644, 'masculino', '123', '123'),
+(4, 'fer', 'torrez', 'rey@rey', '2022-09-28', 1111, 'masculino', '123', '123'),
 (5, 'Qui ', 'Hic dolor voluptates', 'hunulu@mailinator.com', '2011-06-28', 1, 'Femenino', 'Pa$$w0rd!', 'Pa$$w0rd!'),
-(6, 'jhon', 'hernandez', 'jhon@gmail.com', '2001-11-10', 111, 'Masculino', '123', '123');
+(6, 'jhon', 'hernandez', 'jhon@gmail.com', '2001-11-10', 111, 'Masculino', '123', '123'),
+(7, 'prueba', 'p', 'prueba@gmail.com', '2022-10-05', 99999, 'Femenino', '123', '123');
 
 --
 -- Índices para tablas volcadas
@@ -69,7 +68,7 @@ ALTER TABLE `registro`
 -- AUTO_INCREMENT de la tabla `registro`
 --
 ALTER TABLE `registro`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
