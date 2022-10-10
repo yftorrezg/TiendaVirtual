@@ -1,7 +1,7 @@
 # TiendaVirtual
 Primero Se va a inicio de sesion y de ahi se va a la pagina principal
 <!-- link a  inico.html enmarkdown --> 
-- [Inicio](inicio.html)
+- [Inicio](inico.html)
 
 Se inicia sesion 
 - [Inicio de sesion](login.php)
