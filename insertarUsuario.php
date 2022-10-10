@@ -8,9 +8,11 @@
     $fecha = $_POST['fecha'];
     $telefono = $_POST['telefono'];
     $genero = $_POST['genero'];
-    $clave = $_POST['clave'];
     $clave_r = $_POST['clave_r'];
 
+    $clave = $_POST['clave'];
+
+    
     $insertar = "INSERT INTO registro(nombre, apellidos, email, fecha_nacimiento, telefono, genero, clave, r_password) VALUES ('$nombre', '$apellido', '$email', '$fecha', '$telefono', '$genero', '$clave', '$clave_r')";
 
     $ejecutar = $conexion->query($insertar);
